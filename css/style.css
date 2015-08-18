@@ -1,0 +1,70 @@
+
+/* Table 1 Style */
+table.table1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.table1 tbody th{
+	text-align:center;
+	font-size: 25px;
+	line-height: 2.5em;
+    font-weight: bold;
+    color:#fff;
+    background-color:#00CDCD;
+    border:1px solid #8DF0F0;
+    border-right:3px solid #8DF0F0;
+    padding:0px 10px;
+
+}
+.table1 tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:#8DF0F0;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+
+
+.type-1 {
+	background: #096894;
+}
+
+.type-1 span {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 0;
+	opacity: 1;
+	left: 0;
+	box-sizing: border-box;
+	background: #096894;
+	-moz-box-sizing: border-box;
+	padding: 9px 0;
+	text-align: center;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.type-1 span:last-of-type {
+	-webkit-transform: rotateX(90deg);
+	transform: rotateX(90deg);
+	transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	background: #aaa;
+}
+
+.type-1:hover span:last-of-type {
+	-webkit-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+	background: #fff;
+	
+}
+
+.type-1:hover span:first-of-type {
+	background: #073f58;
+}
