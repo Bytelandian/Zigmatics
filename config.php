@@ -1,8 +1,8 @@
 <?php
-$IP="localhost";
-$db="mathematica";
-$user="username";
-$pass="password";
-$con=mysqli_connect($IP,$user,$pass,$db);
-if (mysqli_connect_errno()) {echo "Failed to connect to MySQL: " . mysqli_connect_error();}
+$host="ec2-54-235-134-128.compute-1.amazonaws.com";
+$dbname="d7la1ov0vbab27";
+$user="zeiknggbiwhydk";
+$password="faMkEdqbAmTw8-MN5e6IyeRlsC";
+$con=pg_connect("host=$host dbname=$dbname user=$user password=$password sslmode=require")
+    or die("Can't connect to database".pg_last_error());
 ?>
