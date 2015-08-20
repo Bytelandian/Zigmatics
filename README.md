@@ -3,6 +3,8 @@ Online Mathematics competition | Zeitgeist 2014 | Annual Cultural Fest, IIT Ropa
 
 #### - Math Turns Meth!
 
+#### Application at : https://zigmatics.herokuapp.com.
+
 Zigmatics is an online Mathematics competition held on 27th September 2014, as part of the Zeitgeist Annual Cultural Fest, IIT Ropar.
 
 #### Main Features
